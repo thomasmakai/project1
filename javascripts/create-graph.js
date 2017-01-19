@@ -16,7 +16,7 @@ function createGraph(data) { //Create graph from data parsed by parseData functi
     var atemp = ["Ambient Air Temperature"]; //array to store ambient air temperature
 	var time = []; //array to store time
 
-	for (var i = data.length - 20; i < data.length; i++) { //sort & push fields from data array to pipe surface temperature, ambient air temperature and time arrays
+	for (var i = data.length - 20; i < data.length; i++) { //sort & push the last 20 fields from data array to 3 new arrays
 		stemp.push(data[i][0]);
         atemp.push(data[i][1]);
 		time.push(data[i][3]);
