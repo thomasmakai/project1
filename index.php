@@ -28,6 +28,8 @@
 
 		<!-- Load papaparse.js -->
 		<script src="javascripts/papaparse.min.js"></script>
+        <!-- Status Values Script -->
+        <script src="javascripts/status.js"></script>
         <!-- HTML include script -->
         <script src="http://www.w3schools.com/lib/w3data.js"></script>
     </head>
@@ -35,7 +37,7 @@
 	<body>
 
 		<!-- Header -->
-			<div w3-include-html="sidebar.html"></div>
+        <div w3-include-html="sidebar.html"></div>
         <script> w3IncludeHTML(); </script>	
 
 		<!-- Main -->
@@ -50,12 +52,6 @@
 <!--                                    a <a href="">link1</a> <br /> text <a href="">link2</a>.</h2>-->
 								<p>Avoid Water Spillage A/S</p>
 							</header>
-
-<!--
-							<footer>
-								<a href="#portfolio" class="button scrolly">LINK</a>
-							</footer>
--->
 
 						</div>
 					</section>
