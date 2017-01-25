@@ -1,7 +1,7 @@
 <?php
 
-
 $data = $_GET['data']; // set variable 'data' to input data from arduino
+date_default_timezone_set("Europe/Copenhagen"); // set timezone to UTC+1
 $t = time(); // set 't' variable to current time
 $filename = "./data.csv"; // set 'filename" variable to csv file directory on webserver
 
